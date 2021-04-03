@@ -7,7 +7,7 @@ const Sidebar = props => {
   return (
     <nav className={style.sidebar}>
       {sideMenu.map((item, index) => {
-        return <NavItem key={`${item.label}-${index}`} item={item} depth={1} />;
+        return <NavItem key={`${item.label}-${index}`} item={item} />;
       })}
     </nav>
   );
