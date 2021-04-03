@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './sidebar.module.css';
-import NavItem from './components/navItem/NavItem.jsx';
+import NavItem from './navItem/NavItem.jsx';
 import { sideMenu } from './menu.config.js';
 
 const Sidebar = props => {
